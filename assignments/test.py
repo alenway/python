@@ -109,7 +109,6 @@
 #     print(f"'{vowel}' appears {count} times")
 
 my_list = [10,11,12,13,14,15,16,17,18]
-
 while True:
     print("\nSample list [10,11,12,13,14,15,16,17,18]")
     print("*** List Operations Menu ***")

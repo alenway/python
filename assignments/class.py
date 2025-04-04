@@ -1,3 +1,5 @@
+age = 97
+
 class classname:
     num = 289
     print(num)

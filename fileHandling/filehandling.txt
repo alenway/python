@@ -1,0 +1,29 @@
+
+File Handling:
+a file is a named location used for storing data, python provides various functions to perform different file opperations this process is known as file handling
+
+to open a file in python we use open function , we can open file in different modes, cread , write , append, etc bydefault python opens files in read mode
+
+mode                    discription about mode
+r                           opens file in read mode(default).
+w                           opens file in write mode.
+a                           opens a file in append mode(adds content at the end of file).
+t                           opens a file in text mode.
+b                           opens file in binary mode.
++                           open file in both read and write mode.
+
+we can read the file using read function() and write in the file using write function()
+
+if we open the file in write mode and the file does not exist then a new file is created.
+after performing operation on the file, the file needs to be closed so we use close function() it is a good programing practice to close a fileas it freez up resources held by the file
+
+we can also open a file using { with ---open } when we use this it automatically closes the file there for we dont need to use close function()
+
+Method Name                         |                        Discription about the method
+open()                              |               it use to open a file in various modes.
+close()                             |               closes the open file.
+read()                              |               reads the content of the file.
+seek(offset, from)                  |        it is used to change the file position to offset bytes in reference to from. this is start, current , end.
+tell()                              |               it returns an integer that represents the current position of the files object.
+write(s)                            |               writes a string to the file.
+writelines(lines)                   |               write a list of lines to the file

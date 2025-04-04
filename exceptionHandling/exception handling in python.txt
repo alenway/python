@@ -1,0 +1,10 @@
+exception handling in python
+an exception is an unexpected event that occurs during program execution errors that occur at run time are called as exceptions or logical errors
+eg: when we try to open a file for reading that does not exist {FileNotFoundError} when we try to devide a number by zero (ZeroDivisionError) or when we try to import a module that does not exist (ImportError) there are two types of exceptions Built-in and User Defined
+in python to handle exception we use try-except and else we place the code that might generate and exception inside the try block, every try block is followed by an except block when an exception occurs it is caught by an except block, the except block can not be used without the try block
+if non of the statement inside the try block generates the an exception then the except block is not executed
+we can also catch multiple exception using multiple except blocks
+in some situations we might want to run surtain block of code if the code inside the try block is executed without any errors for such cases yout can use else keyword with the try statement
+exceptions in the else clause are not handled by the preceding except block
+we can also use finnaly along with try, the finnally block is excuted alwasys even when execution the finnally block is optional like else block
+q1. wite python program to implement user defined exception, using built in module compresse and decompress user inputed string, if the module does not exist the program must raise an exception.
